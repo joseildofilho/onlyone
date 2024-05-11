@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "OnlyOne",
+  "description": "Only allows one tab into the browser",
+  "version": "0.1",
+  "action": {
+    "default_icon": "hello_extensions.png"
+  },
+  "background": {
+      "service_worker": "service-worker.js"
+  },
+  "permissions": ["tabs"]
+}
